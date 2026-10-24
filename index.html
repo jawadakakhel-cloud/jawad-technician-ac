@@ -133,19 +133,19 @@
             <span>❄️ اے سی کی سروس کروانی ہے</span>
             <span>💬 کلک کریں</span>
         </button>
-        <button onclick="sendWhatsApp('اے سی  خراب ہے(AC) ریپیئرنگ ')" style="background-color: #25d366; color: white; border: none; padding: 10px 14px; border-radius: 6px; font-size: 14px; font-weight: bold; cursor: pointer; display: flex; align-items: center; justify-content: space-between;">
+        <button onclick="sendWhatsApp('اے سی  خراب ہے ')" style="background-color: #25d366; color: white; border: none; padding: 10px 14px; border-radius: 6px; font-size: 14px; font-weight: bold; cursor: pointer; display: flex; align-items: center; justify-content: space-between;">
             <span>🛠️ اے سی خراب ہے (ریپیئرنگ)</span>
             <span>💬 کلک کریں</span>
         </button>
-        <button onclick="sendWhatsApp('فریج  خراب ہے کولنگ نہیں کر رہا (Refrigerator)')" style="background-color: #25d366; color: white; border: none; padding: 10px 14px; border-radius: 6px; font-size: 14px; font-weight: bold; cursor: pointer; display: flex; align-items: center; justify-content: space-between;">
+        <button onclick="sendWhatsApp('فریج  خراب ہے کولنگ نہیں کر رہا ')" style="background-color: #25d366; color: white; border: none; padding: 10px 14px; border-radius: 6px; font-size: 14px; font-weight: bold; cursor: pointer; display: flex; align-items: center; justify-content: space-between;">
             <span>🧊 فریج خراب ہے  (کولنگ کا مسئلہ)</span>
             <span>💬 کلک کریں</span>
         </button>
-        <button onclick="sendWhatsApp(' واٹر ڈسپنسر  میں مسئلہ آیا ہے کام نہیں کرتا (Water Dispenser)')" style="background-color: #25d366; color: white; border: none; padding: 10px 14px; border-radius: 6px; font-size: 14px; font-weight: bold; cursor: pointer; display: flex; align-items: center; justify-content: space-between;">
+        <button onclick="sendWhatsApp(' واٹر ڈسپنسر  میں مسئلہ آیا ہے کام نہیں کرتا ')" style="background-color: #25d366; color: white; border: none; padding: 10px 14px; border-radius: 6px; font-size: 14px; font-weight: bold; cursor: pointer; display: flex; align-items: center; justify-content: space-between;">
             <span>💧 واٹر ڈسپنسر خراب ہے</span>
             <span>💬 کلک کریں</span>
         </button>
-        <button onclick="sendWhatsApp('ڈیپ فریزر  خراب ہے(Deep Freezer)')" style="background-color: #25d366; color: white; border: none; padding: 10px 14px; border-radius: 6px; font-size: 14px; font-weight: bold; cursor: pointer; display: flex; align-items: center; justify-content: space-between;">
+        <button onclick="sendWhatsApp('ڈیپ فریزر  خراب ہے)" style="background-color: #25d366; color: white; border: none; padding: 10px 14px; border-radius: 6px; font-size: 14px; font-weight: bold; cursor: pointer; display: flex; align-items: center; justify-content: space-between;">
             <span>🥶 ڈیپ فریزر خراب ہے</span>
             <span>💬 کلک کریں</span>
         </button>
@@ -155,7 +155,7 @@
 <script>
     function sendWhatsApp(itemType) {
         var myNumber = "923710967457"; // یہاں X کی جگہ اپنا اصلی واٹس ایپ نمبر لکھیں (مثلاً 923710967457)
-        var message = "السلام علیکم جواد بھائی! میرا " + itemType + "   مردان میں ضرورت ہے۔\n\nمجھ سے رابطہ کریں:\nنام: [اپنا نام یہاں لکھیں]\nپتہ: [اپنا پتہ/علاقہ یہاں لکھیں]";
+        var message = "السلام علیکم جواد بھائی! میرا " + itemType + "    میں ضرورت ہے۔\n\nمجھ سے رابطہ کریں:\nنام: [اپنا نام یہاں لکھیں]\nپتہ: [اپنا پتہ/علاقہ یہاں لکھیں]";
         var whatsappURL = "https://wa.me/" + myNumber + "?text=" + encodeURIComponent(message);
         window.open(whatsappURL, '_blank').focus();
     }
