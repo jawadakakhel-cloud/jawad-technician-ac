@@ -17,6 +17,31 @@
     <!-- Header Section -->
     <header class="bg-white shadow-sm sticky top-0 z-50 px-4 py-3 flex justify-between items-center border-b border-gray-100">
         <div class="flex items-center space-x-3 space-x-reverse">
+         <style>
+/* JW لوگو کے گول گول گھومنے کی اینیمیشن */
+@keyframes spinLogo {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.jw-rotating-logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background-color: #4f46e5; /* نیلا رنگ جو آپ کی ویب سائٹ میں ہے */
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 12px;
+    animation: spinLogo 6s linear infinite; /* 6 سیکنڈ میں ایک چکر، رفتار تیز یا آہستہ کرنے کے لیے 6s بدل سکتے ہیں */
+}
+</style>
+
+<!-- یہ رہا لوگو والا کوڈ جسے آپ نے اپنی پرانی لوگو والی جگہ پر رکھنا ہے -->
+<div class="jw-rotating-logo">JW</div>
+            
             <div class="bg-indigo-600 text-white p-2 rounded-xl font-bold text-lg shadow-md">JW</div>
             <div>
                 <h1 class="font-bold text-gray-900 text-sm sm:text-base">جواد اے سی اینڈ فریج ریپئرنگ</h1>
